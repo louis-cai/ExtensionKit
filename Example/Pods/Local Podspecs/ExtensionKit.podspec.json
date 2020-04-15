@@ -1,0 +1,26 @@
+{
+  "name": "ExtensionKit",
+  "version": "0.1.0",
+  "summary": "A short description of ExtensionKit.",
+  "description": "ExtensionKit is a Lib for swift 5.",
+  "homepage": "https://github.com/louis.cai.cn@gmail.com/ExtensionKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "louis.cai.cn@gmail.com": "louis.cai.cn@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/louis.cai.cn@gmail.com/ExtensionKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ExtensionKit/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
+}

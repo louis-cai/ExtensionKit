@@ -18,15 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  ExtensionKit is a Lib for swift 5.
                        DESC
 
   s.homepage         = 'https://github.com/louis.cai.cn@gmail.com/ExtensionKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'louis.cai.cn@gmail.com' => 'cailu@aiuw.com' }
+  s.author           = { 'louis.cai.cn@gmail.com' => 'louis.cai.cn@gmail.com' }
   s.source           = { :git => 'https://github.com/louis.cai.cn@gmail.com/ExtensionKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
@@ -37,6 +35,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
